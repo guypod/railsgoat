@@ -58,7 +58,7 @@ gem 'turbolinks' # New for Rails 4.0
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', :platforms => :ruby
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 
 # To use ActiveModel has_secure_password
  gem 'bcrypt'
