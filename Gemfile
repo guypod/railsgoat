@@ -72,7 +72,7 @@ gem 'jquery-rails'
 # Pow related gem
 gem 'powder'
 
-gem 'aruba'
+gem 'aruba', '>= 0.14.2'
 #gem 'minitest', '~> 4.0', :require=> "minitest/autorun"
 
 #gem 'minitest'
