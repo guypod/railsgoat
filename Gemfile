@@ -35,10 +35,10 @@ end
 gem 'simplecov', :require => false, :group => :test
 
 group :development, :test, :mysql do
-  gem 'launchy'
-  gem 'capybara'
+  gem 'launchy', '>= 2.4.3'
+  gem 'capybara', '>= 2.9.2'
   gem 'database_cleaner'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.10.0'
   gem 'rspec-rails'
   gem 'test-unit'
 end
